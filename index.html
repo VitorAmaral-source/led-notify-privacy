@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — LED Notify</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px;
+            background: #ffffff;
+        }
+        h1 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #40c4ff;
+            padding-bottom: 8px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 28px;
+            color: #0a3d62;
+        }
+        p, li { font-size: 1rem; }
+        ul { padding-left: 20px; }
+        .updated { color: #666; font-size: 0.9rem; }
+        footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #ddd;
+            font-size: 0.85rem;
+            color: #666;
+        }
+        a { color: #0277bd; }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidade — LED Notify</h1>
+    <p class="updated"><strong>Última atualização:</strong> julho de 2026</p>
+
+    <p>
+        O <strong>LED Notify</strong> ("aplicativo") foi desenvolvido para simular uma luz de
+        notificação (LED) usando a tela do aparelho. Esta política explica como o aplicativo
+        lida com dados.
+    </p>
+
+    <h2>1. Dados coletados</h2>
+    <p>
+        O LED Notify <strong>não coleta, não armazena e não transmite</strong> dados pessoais
+        para servidores externos. Não há cadastro, login ou envio de informações pela internet.
+    </p>
+
+    <h2>2. Acesso a notificações</h2>
+    <p>
+        O aplicativo utiliza a permissão de <strong>Acesso a Notificações</strong>
+        (NotificationListenerService) exclusivamente para:
+    </p>
+    <ul>
+        <li>Detectar quando chega uma notificação de um app que você escolheu monitorar;</li>
+        <li>Acionar a luz (LED) na tela.</li>
+    </ul>
+    <p>
+        O aplicativo <strong>não lê, não armazena e não compartilha o conteúdo</strong> das
+        mensagens ou notificações. Apenas o identificador do aplicativo de origem (por exemplo,
+        WhatsApp) é utilizado, e somente em tempo de execução, no próprio aparelho.
+    </p>
+
+    <h2>3. Armazenamento local</h2>
+    <p>
+        Suas configurações (cor, brilho, tamanho, formato, apps monitorados etc.) são salvas
+        <strong>apenas localmente</strong> no seu dispositivo. Esses dados não saem do aparelho
+        e são removidos ao desinstalar o app.
+    </p>
+
+    <h2>4. Permissões utilizadas</h2>
+    <ul>
+        <li><strong>Acesso a notificações:</strong> detectar notificações dos apps monitorados.</li>
+        <li><strong>Notificações em tela cheia (USE_FULL_SCREEN_INTENT):</strong> exibir o LED com o aparelho bloqueado.</li>
+        <li><strong>Notificações (POST_NOTIFICATIONS):</strong> disparar o fluxo do LED.</li>
+        <li><strong>Reinício concluído (RECEIVE_BOOT_COMPLETED):</strong> reativar o serviço após reiniciar o aparelho.</li>
+    </ul>
+
+    <h2>5. Compartilhamento com terceiros</h2>
+    <p>Nenhum dado é compartilhado com terceiros, pois nenhum dado é coletado.</p>
+
+    <h2>6. Crianças</h2>
+    <p>
+        O aplicativo não se destina a coletar dados de qualquer usuário, incluindo crianças.
+    </p>
+
+    <h2>7. Contato</h2>
+    <p>
+        Dúvidas sobre esta política podem ser enviadas para:
+        <a href="mailto:suporte.lednotify@gmail.com">suporte.lednotify@gmail.com</a>
+    </p>
+
+    <footer>
+        LED Notify &copy; 2026. Esta política pode ser atualizada periodicamente.
+    </footer>
+</body>
+</html>
